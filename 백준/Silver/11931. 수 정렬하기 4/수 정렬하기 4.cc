@@ -3,6 +3,8 @@ using namespace std;
 using ll = long long;
 
 int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
     int N;
     cin >> N;
     vector<ll> v(N);
